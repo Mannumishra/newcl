@@ -17,8 +17,8 @@ exports.createSubscription = async (req, res) => {
 
         // Email content for the admin
         const mailOptions = {
-            from: "Panchgavya.amrit@gmail.com",
-            to: "Panchgavya.amrit@gmail.com",
+            from: "mannu22072000@gmail.com",
+            to: "mannu22072000@gmail.com",
             subject: "New Subscription Notification",
             html: `
           <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">

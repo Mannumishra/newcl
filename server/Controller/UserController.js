@@ -55,7 +55,7 @@ const createRecord = async (req, res) => {
 
         // Send welcome email
         await transporter.sendMail({
-            from: "Panchgavya.amrit@gmail.com",
+            from: "mannu22072000@gmail.com",
             to: email,
             subject: "Welcome to Vedhlakshna!",
             html: getWelcomeEmailTemplate(name)
@@ -250,7 +250,7 @@ const forgotPassword = async (req, res) => {
 
         // Send password reset email
         await transporter.sendMail({
-            from: "Panchgavya.amrit@gmail.com",
+            from: "mannu22072000@gmail.com",
             to: email,
             subject: "Password Reset Request",
             html: getPasswordResetEmailTemplate(user.name, resetLink),

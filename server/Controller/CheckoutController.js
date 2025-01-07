@@ -179,8 +179,8 @@ exports.checkout = async (req, res) => {
 
             // Send welcome email
             await transporter.sendMail({
-                from: "Panchgavya.amrit@gmail.com",
-                to: "Panchgavya.amrit@gmail.com",
+                from: "mannu22072000@gmail.com",
+                to: "mannu22072000@gmail.com",
                 subject: "New Order Received from Vedlakshna",
                 html: getOrderEmailTemplate(checkout)
             });
@@ -195,8 +195,8 @@ exports.checkout = async (req, res) => {
         await checkout.save();
         // Send welcome email
         await transporter.sendMail({
-            from: "Panchgavya.amrit@gmail.com",
-            to: "Panchgavya.amrit@gmail.com",
+            from: "mannu22072000@gmail.com",
+            to: "mannu22072000@gmail.com",
             subject: "New Order Received from Vedlakshna",
             html: getOrderEmailTemplate(checkout)
         });
