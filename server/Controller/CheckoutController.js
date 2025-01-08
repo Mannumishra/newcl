@@ -6,8 +6,8 @@ const CupanCode = require("../Models/VouchersModel");
 const { transporter } = require("../utils/Nodemailer");
 
 const razorpayInstance = new Razorpay({
-    key_id: 'rzp_live_FjN3xa6p5RsEl6',
-    key_secret: 'CrSeAmgW4PgPIKzsNOaqL7QB',
+    key_id: 'rzp_test_XPcfzOlm39oYi8',
+    key_secret: 'Q79P6w7erUar31TwW4GLAkpa',
 });
 
 // Helper function for email template

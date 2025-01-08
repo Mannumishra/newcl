@@ -128,10 +128,11 @@ const ProductsTabs = () => {
       <div className="container">
         <div className="product_heading_tab">
           <div className="tabsection">
-            <h2>
-              <b>Pure Ghee & More</b> <br />
-              Bringing Natural Goodness to Your Home!
-            </h2>
+          <h2>   
+  <b>Pure Rice & Dry Fruits</b> <br />   
+  Bringing Natural Goodness to Your Home! 
+</h2>
+
           </div>
           <div className="tabs">
             {categories.slice(0, 7).map((category) => (

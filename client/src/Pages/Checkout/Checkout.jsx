@@ -198,7 +198,7 @@ const Checkout = () => {
             if (paymentMethod === "Online") {
               const { razorpayOrder } = res.data;
               const options = {
-                key: "rzp_live_FjN3xa6p5RsEl6",
+                key: "rzp_test_XPcfzOlm39oYi8",
                 amount: razorpayOrder.amount,
                 currency: "INR",
                 name: "VesLakshna Store",
